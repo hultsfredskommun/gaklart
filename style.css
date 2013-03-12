@@ -11,6 +11,12 @@ Template: twentyeleven
 body {
 	background: white;
 }
+body.custom-background {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 #page {
 	background: transparent;
 }
